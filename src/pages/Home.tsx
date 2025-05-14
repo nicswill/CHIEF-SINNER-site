@@ -15,32 +15,33 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-black">
       <Hero />
 
+      {/* 🔁 Updated Message Section */}
       <div className="py-16 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 tracking-tight">EMBRACE YOUR SINS</h2>
-          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-            CHIEF SINNER isn't just a brand — it's a statement. Our designs embrace the flaws that make us human. 
-            Bold, unapologetic, and crafted for those who dare to stand out.
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide text-white drop-shadow-sm">
+  Redeemed for a Reason
+</h2>
+
+          <p className="text-lg md:text-xl text-red-400 italic max-w-2xl mx-auto mb-10">
+            Because grace doesn’t wait for perfection — it starts with truth.
           </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="p-6 border border-gray-800 hover:border-red-600 transition-colors duration-300">
-              <h3 className="text-xl font-bold mb-3">PREMIUM MATERIALS</h3>
-              <p className="text-gray-400">Ethically sourced fabrics that stand the test of time and wear.</p>
-            </div>
-            <div className="p-6 border border-gray-800 hover:border-red-600 transition-colors duration-300">
-              <h3 className="text-xl font-bold mb-3">BOLD DESIGNS</h3>
-              <p className="text-gray-400">Striking graphics and motifs that tell your story without saying a word.</p>
-            </div>
-            <div className="p-6 border border-gray-800 hover:border-red-600 transition-colors duration-300">
-              <h3 className="text-xl font-bold mb-3">LIMITED RUNS</h3>
-              <p className="text-gray-400">Small batch production ensures you won't see your look on everyone else.</p>
-            </div>
-          </div>
+          <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+            “This is a faithful saying and worthy of all acceptance: that Christ Jesus came into the world to save sinners — of whom I am chief.” <br />
+            <span className="text-sm text-gray-500">(1 Timothy 1:15)</span>
+          </p>
+          <p className="text-gray-400 max-w-3xl mx-auto mb-4">
+            When Paul calls himself the <strong>chief sinner</strong>, he’s expressing profound humility and gratitude. Once a fierce persecutor of the church, Paul’s transformation shows the power of Christ’s forgiveness and grace.
+          </p>
+          <p className="text-gray-400 max-w-3xl mx-auto mb-4">
+            By acknowledging his past, he sets an example for all of us: <strong>no one is beyond God’s reach</strong>. Recognizing our own brokenness is the first step toward accepting God’s mercy.
+          </p>
+          <p className="text-gray-400 max-w-3xl mx-auto">
+            The name <strong>CHIEF SINNER</strong> is a reminder that even in our flaws, there is hope, redemption, and purpose. Is there a place in your life where you need to fully embrace God's grace?
+          </p>
         </div>
       </div>
 
-      {/* 🔥 Waitlist Form with Success Message */}
+      {/* 🔥 Waitlist Form */}
       <div className="max-w-md mx-auto mt-16 mb-12 px-4">
         {submitted ? (
           <div className="text-center">
