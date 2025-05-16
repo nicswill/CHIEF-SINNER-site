@@ -18,9 +18,9 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black z-10" aria-hidden="true" />
 
       {/* Hero content */}
-      <div className="relative z-20 flex flex-col items-center justify-start h-full text-center px-4 sm:px-6 lg:px-8 mt-6">
+      <div className="relative z-20 flex flex-col items-center justify-start h-full text-center px-4 sm:px-6 lg:px-8 pt-32 gap-8">
         <h1
-          className={`text-white text-5xl md:text-7xl lg:text-8xl font-black tracking-wide mb-2 transform transition-all duration-1000 ${
+          className={`text-white text-5xl md:text-7xl lg:text-8xl font-black tracking-wide transform transition-all duration-1000 ${
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         </h1>
 
         <p
-          className={`text-gray-200 text-xl md:text-2xl font-bold mb-2 max-w-2xl transform transition-all duration-1000 delay-300 ${
+          className={`text-gray-200 text-xl md:text-2xl font-bold max-w-2xl transform transition-all duration-1000 delay-300 ${
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
         </p>
 
         <div
-          className={`mb-0 transform transition-all duration-1000 delay-500 ${
+          className={`transform transition-all duration-1000 delay-500 ${
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
