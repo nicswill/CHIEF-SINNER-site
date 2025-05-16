@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
@@ -39,14 +40,12 @@ const Hero: React.FC = () => {
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
-          <a
-            href="https://shopcno.com/products/chief-sinner-unisex-softstyle-t-shirt-faith-and-belief-statement-tee"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/shop"
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-none tracking-wider uppercase text-lg transition-colors duration-300"
           >
             SHOP NOW
-          </a>
+          </Link>
         </div>
       </div>
     </div>

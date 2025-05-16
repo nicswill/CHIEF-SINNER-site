@@ -1,59 +1,41 @@
+// Shop.tsx
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-const products = [
-  {
-    title: 'T-Shirts',
-    image: '/shirt.jpg',
-    link: '/shop/tshirts',
-  },
-  {
-    title: 'Hats',
-  },
-  {
-    title: 'Sweatshirts',
-  },
-  {
-    title: 'Sweatpants',
-  },
-  {
-    title: 'Sneakers',
-  },
-];
 
 const Shop: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white py-20 px-4">
-      <div className="max-w-6xl mx-auto text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-wide">Shop CHIEF SINNER</h1>
-        <p className="text-red-500 mt-4 italic text-lg">Dress Loud. Faithe Louder.</p>
-      </div>
+      <div className="max-w-5xl mx-auto text-center">
+        <h1 className="text-4xl md:text-5xl font-bold mb-8">Shop CHIEF SINNER</h1>
+        <p className="text-lg text-gray-400 mb-12">Select a category below to view products</p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        {products.map((product) => (
-          <div
-            key={product.title}
-            className="border border-gray-800 p-6 flex flex-col items-center justify-center text-center bg-black hover:border-red-600 transition duration-300"
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* T-Shirts */}
+          <a
+            href="https://shopcno.com/products/chief-sinner-unisex-softstyle-t-shirt-faith-and-belief-statement-tee"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-700 hover:border-red-600 transition rounded p-6 flex flex-col items-center justify-center text-center"
           >
-            {product.image ? (
-              <Link to={product.link || '#'}>
-                <img
-                  src={product.image}
-                  alt={product.title}
-                  className="mb-4 w-full h-48 object-cover border border-gray-700"
-                />
-                <h2 className="text-xl font-semibold">{product.title}</h2>
-              </Link>
-            ) : (
-              <>
-                <h2 className="text-2xl font-bold mb-2">{product.title}</h2>
-                <span className="bg-red-600 text-white px-4 py-1 rounded uppercase tracking-widest text-sm font-bold">
-                  Coming Soon
-                </span>
-              </>
-            )}
+            <span className="text-xl font-semibold mb-2">T-Shirts</span>
+            <span className="text-sm text-gray-400">View Available Styles</span>
+          </a>
+
+          {/* Coming Soon Placeholders */}
+          <div className="border border-gray-700 opacity-50 rounded p-6 flex flex-col items-center justify-center text-center">
+            <span className="text-xl font-semibold mb-2">Hats</span>
+            <span className="text-sm text-gray-500">Coming Soon</span>
           </div>
-        ))}
+
+          <div className="border border-gray-700 opacity-50 rounded p-6 flex flex-col items-center justify-center text-center">
+            <span className="text-xl font-semibold mb-2">Sweatshirts</span>
+            <span className="text-sm text-gray-500">Coming Soon</span>
+          </div>
+
+          <div className="border border-gray-700 opacity-50 rounded p-6 flex flex-col items-center justify-center text-center">
+            <span className="text-xl font-semibold mb-2">Sneakers</span>
+            <span className="text-sm text-gray-500">Coming Soon</span>
+          </div>
+        </div>
       </div>
     </div>
   );
