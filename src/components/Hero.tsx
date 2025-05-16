@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         </h1>
 
         <p
-          className={`text-gray-200 text-xl md:text-2xl font-bold mb-8 max-w-2xl transform transition-all duration-1000 delay-300 ${
+          className={`text-gray-200 text-xl md:text-2xl font-bold mb-6 max-w-2xl transform transition-all duration-1000 delay-300 ${
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
         </p>
 
         <div
-          className={`transform transition-all duration-1000 delay-500 ${
+          className={`mb-4 transform transition-all duration-1000 delay-500 ${
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
