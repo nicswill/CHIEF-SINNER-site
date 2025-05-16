@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           }`}
         >
           <a
-            href="https://shopcno.com/collections/sinner"
+            href="https://shopcno.com/products/chief-sinner-unisex-softstyle-t-shirt-faith-and-belief-statement-tee"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-none tracking-wider uppercase text-lg transition-colors duration-300"
