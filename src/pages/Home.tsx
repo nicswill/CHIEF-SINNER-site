@@ -15,10 +15,9 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-black text-white">
       {/* Background Banner Image */}
       <div
-        className="w-full h-[400px] sm:h-[500px] bg-cover bg-top"
+        className="w-full h-auto bg-no-repeat bg-contain bg-top"
         style={{
           backgroundImage: "url('/background-image.jfif')",
-          backgroundPosition: 'top center',
         }}
       />
 
@@ -35,7 +34,7 @@ const Home: React.FC = () => {
             Because grace doesn’t wait for perfection — it starts with truth.
           </p>
           <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-            “So here is a statement that you can have <strong>faith</strong> in. One that fully deserves to be accepted: <strong>The Messiah Yeshua</strong> came into the world to save sinners; of whom I am <strong className="text-xl text-white font-bold">CHIEF SINNER!</strong>”
+            “So here is a statement that you can have <strong>faithe</strong> in. One that fully deserves to be accepted: <strong>The Messiah Yeshua</strong> came into the world to save sinners; of whom I am <strong className="text-xl text-white font-bold">CHIEF SINNER!</strong>”
           </p>
           <p className="text-gray-400 max-w-3xl mx-auto mb-4">
             When Shaul calls himself the <strong>chief sinner</strong>, he’s expressing profound humility and gratitude. Once a fierce persecutor of the faithers in Yeshua, Shaul’s transformation shows the power of the Messiah’s forgiveness and grace.
@@ -44,7 +43,7 @@ const Home: React.FC = () => {
             By acknowledging his <strong>condition of sin</strong>, he sets an example for all of us: <strong>no one is beyond Adoni’s reach</strong>. Recognizing our brokenness is the first step toward accepting His mercy.
           </p>
           <p className="text-gray-400 max-w-3xl mx-auto font-medium text-lg italic">
-            Faith is an action, based upon a belief, sustained by confidence, and it’s time now that we ALL start faithing in our Messiah Yeshua and his finished work at Calvary.
+            Faithe is an action, based upon a belief, sustained by confidence, and it’s time now that we ALL start faithing in our Messiah Yeshua and his finished work at Calvary.
           </p>
         </div>
       </div>
