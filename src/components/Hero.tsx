@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
@@ -40,12 +39,14 @@ const Hero: React.FC = () => {
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
-          <Link
-            to="/shop"
+          <a
+            href="https://shopcno.com/collections/sinner"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-none tracking-wider uppercase text-lg transition-colors duration-300"
           >
             SHOP NOW
-          </Link>
+          </a>
         </div>
       </div>
     </div>
