@@ -13,15 +13,13 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Background Banner Image with Zoom */}
-      <div className="relative w-full h-[500px] sm:h-[600px] mt-16">
-        <div
-          className="absolute inset-0 bg-no-repeat bg-contain bg-top animate-zoom"
-          style={{
-            backgroundImage: "url('/background-image.jpg')",
-          }}
-        ></div>
-      </div>
+      {/* Static Background Banner Image */}
+      <div
+        className="w-full h-[500px] sm:h-[600px] mt-16 bg-no-repeat bg-contain bg-top"
+        style={{
+          backgroundImage: "url('/background-image.jpg')",
+        }}
+      ></div>
 
       {/* Hero Section */}
       <Hero />
