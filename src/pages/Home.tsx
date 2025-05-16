@@ -15,11 +15,11 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-black text-white">
       {/* Background Banner Image */}
       <div
-        className="w-full h-auto bg-no-repeat bg-contain bg-top"
+        className="w-full h-[400px] sm:h-[500px] bg-no-repeat bg-contain bg-top"
         style={{
-          backgroundImage: "url('/background-image.jfif')",
+          backgroundImage: "url('/background-image.jpg')",
         }}
-      />
+      ></div>
 
       {/* Hero Section */}
       <Hero />
