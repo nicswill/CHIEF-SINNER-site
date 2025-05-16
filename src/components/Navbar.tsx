@@ -33,9 +33,7 @@ const Navbar: React.FC = () => {
                 alt="CHIEF SINNER Logo" 
                 className="w-14 md:w-16 h-auto drop-shadow-[0_0_10px_rgba(255,0,0,0.5)]"
               />
-              <img src="/chief-sinner-logo.png" alt="CHIEF SINNER Logo" className="h-8 w-8 mr-2" />
-<span className="text-white font-extrabold text-xl tracking-wider">CHIEF SINNER</span>
-
+              <span className="text-white font-extrabold text-xl tracking-wider">CHIEF SINNER</span>
             </Link>
           </div>
           
