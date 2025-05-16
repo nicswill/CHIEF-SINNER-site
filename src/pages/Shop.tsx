@@ -20,18 +20,20 @@ const Shop: React.FC = () => {
             <span className="text-sm text-gray-400">View Available Styles</span>
           </a>
 
-          {/* Coming Soon Placeholders */}
-          <div className="border border-gray-700 opacity-50 rounded p-6 flex flex-col items-center justify-center text-center">
+          {/* Hats */}
+          <div className="border border-gray-700 rounded p-6 flex flex-col items-center justify-center text-center">
             <span className="text-xl font-semibold mb-2">Hats</span>
             <span className="text-sm text-gray-500">Coming Soon</span>
           </div>
 
-          <div className="border border-gray-700 opacity-50 rounded p-6 flex flex-col items-center justify-center text-center">
+          {/* Sweatshirts */}
+          <div className="border border-gray-700 rounded p-6 flex flex-col items-center justify-center text-center">
             <span className="text-xl font-semibold mb-2">Sweatshirts</span>
             <span className="text-sm text-gray-500">Coming Soon</span>
           </div>
 
-          <div className="border border-gray-700 opacity-50 rounded p-6 flex flex-col items-center justify-center text-center">
+          {/* Sneakers */}
+          <div className="border border-gray-700 rounded p-6 flex flex-col items-center justify-center text-center">
             <span className="text-xl font-semibold mb-2">Sneakers</span>
             <span className="text-sm text-gray-500">Coming Soon</span>
           </div>
