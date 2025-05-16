@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black z-10" aria-hidden="true" />
 
       {/* Hero content */}
-      <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6 lg:px-8">
+      <div className="relative z-20 flex flex-col items-center justify-start h-full text-center px-4 sm:px-6 lg:px-8 pt-0 mt-[-3rem]">
         <h1
           className={`text-white text-5xl md:text-7xl lg:text-8xl font-black tracking-wide mb-6 transform transition-all duration-1000 ${
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
