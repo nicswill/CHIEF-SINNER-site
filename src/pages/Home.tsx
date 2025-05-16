@@ -14,19 +14,13 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
 
-      {/* 🔥 Background Logo */}
-      <div
-        className="absolute inset-0 z-0 bg-center bg-no-repeat bg-contain opacity-5"
-        style={{
-          backgroundImage: "url('/chief-sinner-logo.png')",
-          backgroundPosition: 'center center',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: '80%',
-        }}
-      />
+      {/* Background Banner Image */}
+<div className="w-full h-[300px] sm:h-[400px] bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/background-image.jfif')",
+  }}
+/>
 
-      {/* Main content (above backdrop) */}
-      <div className="relative z-10">
         <Hero />
 
         {/* Message Section */}
