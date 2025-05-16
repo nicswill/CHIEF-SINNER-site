@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
 
   return (
     <div className="relative h-screen w-full bg-black overflow-hidden">
-      {/* Solid background instead of stock photo */}
+      {/* Solid background or image overlay */}
       <div className="absolute inset-0 bg-black z-10" aria-hidden="true" />
 
       {/* Hero content */}
@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
-          FAITH LOUD. DRESS LOUDER.
+          Dress Loud. Faithe Louder.
         </p>
 
         <div

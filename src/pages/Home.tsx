@@ -13,12 +13,12 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-
-      {/* Background Image Banner */}
+      {/* Background Banner Image */}
       <div
-        className="w-full h-[300px] sm:h-[400px] bg-cover bg-center"
+        className="w-full h-[400px] sm:h-[500px] bg-cover bg-top"
         style={{
           backgroundImage: "url('/background-image.jfif')",
+          backgroundPosition: 'top center',
         }}
       />
 
