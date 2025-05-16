@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-black text-white">
       {/* Background Banner Image */}
       <div
-        className="w-full h-[400px] sm:h-[500px] bg-no-repeat bg-contain bg-top"
+        className="w-full h-[300px] sm:h-[400px] bg-no-repeat bg-contain bg-top pt-16"
         style={{
           backgroundImage: "url('/background-image.jpg')",
         }}
