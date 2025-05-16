@@ -55,6 +55,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #e11d48;
 }
+
+/* 🔥 Zoom animation for background image */
 @layer utilities {
   .animate-zoom {
     animation: zoomIn 20s ease-in-out infinite alternate;
