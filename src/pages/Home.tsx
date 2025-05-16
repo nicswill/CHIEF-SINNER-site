@@ -8,40 +8,41 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'CHIEF SINNER | Repent Loud. Dress Louder.';
+    document.title = 'CHIEF SINNER | Faith Loud. Dress Louder.';
   }, []);
 
   return (
     <div className="min-h-screen bg-black">
       <Hero />
 
-      {/* 🔁 Updated Message Section */}
+      {/* Message Section */}
       <div className="py-16 bg-black text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide text-white drop-shadow-sm">
-  Redeemed for a Reason
-</h2>
-
+            Redeemed for a Reason
+          </h2>
           <p className="text-lg md:text-xl text-red-400 italic max-w-2xl mx-auto mb-10">
             Because grace doesn’t wait for perfection — it starts with truth.
           </p>
+
+          {/* Updated Verse */}
           <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-            “This is a faithful saying and worthy of all acceptance: that Christ Jesus came into the world to save sinners — of whom I am chief.” <br />
-            <span className="text-sm text-gray-500">(1 Timothy 1:15)</span>
+            “So here is a statement that you can have <strong>faith</strong> in. One that fully deserves to be accepted: <strong>The Messiah Yeshua</strong> came into the world to save sinners; of whom I am <strong className="text-xl text-white font-bold">CHIEF SINNER!</strong>”
+          </p>
+
+          <p className="text-gray-400 max-w-3xl mx-auto mb-4">
+            When Shaul calls himself the <strong>chief sinner</strong>, he’s expressing profound humility and gratitude. Once a fierce persecutor of the faithers in Yeshua, Shaul’s transformation shows the power of the Messiah’s forgiveness and grace.
           </p>
           <p className="text-gray-400 max-w-3xl mx-auto mb-4">
-            When Paul calls himself the <strong>chief sinner</strong>, he’s expressing profound humility and gratitude. Once a fierce persecutor of the church, Paul’s transformation shows the power of Christ’s forgiveness and grace.
+            By acknowledging his <strong>condition of sin</strong>, he sets an example for all of us: <strong>no one is beyond Adoni’s reach</strong>. Recognizing our brokenness is the first step toward accepting His mercy.
           </p>
-          <p className="text-gray-400 max-w-3xl mx-auto mb-4">
-            By acknowledging his past, he sets an example for all of us: <strong>no one is beyond God’s reach</strong>. Recognizing our own brokenness is the first step toward accepting God’s mercy.
-          </p>
-          <p className="text-gray-400 max-w-3xl mx-auto">
-            The name <strong>CHIEF SINNER</strong> is a reminder that even in our flaws, there is hope, redemption, and purpose. Is there a place in your life where you need to fully embrace God's grace?
+          <p className="text-gray-400 max-w-3xl mx-auto font-medium text-lg italic">
+            Faith is an action, based upon a belief, sustained by confidence, and it’s time now that we ALL start faithing in our Messiah Yeshua and his finished work at Calvary.
           </p>
         </div>
       </div>
 
-      {/* 🔥 Waitlist Form */}
+      {/* Waitlist Form */}
       <div className="max-w-md mx-auto mt-16 mb-12 px-4">
         {submitted ? (
           <div className="text-center">
