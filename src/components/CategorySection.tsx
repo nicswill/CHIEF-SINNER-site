@@ -9,8 +9,13 @@ const CategorySection: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* T-Shirts */}
-          <div className="border border-gray-700 rounded p-4">
-            <h3 className="text-xl font-semibold mb-4">T-Shirts</h3>
+          <a
+            href="https://shopcno.com/products/chief-sinner-unisex-softstyle-t-shirt-faith-and-belief-statement-tee"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-700 rounded p-4 block"
+          >
+            <h3 className="text-xl font-semibold mb-4 text-center">T-Shirts</h3>
             <div className="flex flex-col items-center">
               <img
                 src="/tshirt-front.jpg"
@@ -23,7 +28,7 @@ const CategorySection: React.FC = () => {
                 className="w-full max-w-xs rounded"
               />
             </div>
-          </div>
+          </a>
 
           {/* Hats */}
           <div className="border border-gray-700 rounded p-6 flex flex-col items-center justify-center text-center">
