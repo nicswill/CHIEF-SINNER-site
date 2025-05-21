@@ -2,16 +2,9 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    return (
-  <div style={{ color: 'white', padding: '50px' }}>
-    <h1>Hello from About Page</h1>
-    ...
-  </div>
-);
-
-    <div className="min-h-screen bg-black text-white px-6 py-16">
+    <main className="bg-black text-white min-h-screen p-10">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6">About Chief Sinner</h1>
+        <h1 className="text-4xl font-bold mb-6">About Chief Sinner</h1>
         <p className="mb-4">
           Chief Sinner was founded by musical artist AC Sinner as a bold expression of truth—we are all SINNERS saved by GRACE. This brand exists to remind us that it's not about perfection, but transformation.
         </p>
@@ -25,7 +18,7 @@ const About: React.FC = () => {
           Just as Yeshua transformed Shaul (Paul)—a chief sinner—on the road to Damascus, we believe that same grace is available to you and me. It’s not by works, but by FAITH and FAITH alone. This is more than apparel—it’s a declaration.
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 
