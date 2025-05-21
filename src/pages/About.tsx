@@ -2,6 +2,13 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
+    return (
+  <div style={{ color: 'white', padding: '50px' }}>
+    <h1>Hello from About Page</h1>
+    ...
+  </div>
+);
+
     <div className="min-h-screen bg-black text-white px-6 py-16">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-6">About Chief Sinner</h1>
